@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="topbar">
+            <h1>Stationery Shop Dashboard</h1>
+            <p>Sri Lakshmi Stationery | Owner View | April 30, 2026</p>
+            <div class="navbar">
+                <ul>
+                    <li class="active">Dashboard</li><li>Sales Analytics</li><li>Orders</li><li>Reports</li><li>Settings</li>
+                </ul>
+            </div>
+        </div>
+        <div class="filters">
+            <div class="filter">📅 Date Range: April 2026</div>
+            <div class="filter">📦 Category:
+                <select>
+                    <option>All Products</option><option>Stationery</option><option>Craft Items</option><option>Soft Toys</option>
+                </select>
+            </div>
+            <div class="filter">💳 Payment:
+                <select>
+                    <option>All</option><option>Cash</option><option>UPI</option><option>Card</option>
+                </select>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h3>Today's Revenue</h3>
+                <div class="value">₹12,540</div>
+                <div class="growth">↑ 12% from yesterday</div>
+            </div>
+            <div class="card">
+                <h3>Monthly Revenue</h3>
+                <div class="value">₹2,48,900</div>
+                <div class="growth">↑ 8% this month</div>
+            </div>
+            <div class="card">
+                <h3>Total Orders</h3>
+                <div class="value">164</div>
+                <div class="growth">↑ 22 orders today</div>
+            </div>
+            <div class="card">
+                <h3>Net Profit</h3>
+                <div class="value">₹46,750</div>
+                <div class="growth">Healthy Margin</div>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="chart-box">
+                <h3>Daily Sales Trend</h3>
+                <div class="chart-placeholder">Line Chart</div>
+            </div>
+            <div class="chart-box">
+                <h3>Top Products</h3>
+                <div class="progress-container">
+                    <div class="progress-label">Notebooks - 85%</div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">Pens - 72%</div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width:72%"></div>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">Craft Items - 58%</div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width:58%"></div>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">Soft Toys - 42%</div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width:42%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart-box">
+                <h3>Customer Segments</h3>
+                <div class="chart-placeholder">Pie Chart</div>
+            </div>
+            <div class="chart-box">
+                <h3>Seasonal Demand</h3>
+                <div class="chart-placeholder">School Reopening Peak</div>
+            </div>
+        </div>
+        <div class="table-box">
+            <h3>Inventory Overview</h3>
+            <table>
+                <tr><th>Product</th><th>Available</th><th>Reorder Level</th><th>Status</th></tr>
+                <tr><td>Notebook</td><td>18</td><td>25</td><td class="low">Low Stock</td></tr>
+                <tr><td>Blue Pens</td><td>150</td><td>50</td><td class="ok">Available</td></tr>
+                <tr><td>Pencils</td><td>220</td><td>60</td><td class="ok">Available</td></tr>
+                <tr><td>A4 Paper Packs</td><td>7 Packs</td><td>10 Packs</td><td class="low">Low Stock</td></tr>
+                <tr><td>Geometry Boxes</td><td>12</td><td>20</td><td class="low">Low Stock</td></tr>
+                <tr><td>School Bags</td><td>28</td><td>10</td><td class="ok">Available</td></tr>
+                <tr><td>Lunch Boxes</td><td>32</td><td>12</td><td class="ok">Available</td></tr>
+                <tr><td>Water Bottles</td><td>40</td><td>15</td><td class="ok">Available</td></tr>
+                <tr><td>Color Pencils</td><td>16</td><td>20</td><td class="low">Low Stock</td></tr>
+                <tr><td>Sketch Pens</td><td>35</td><td>15</td><td class="ok">Available</td></tr>
+                <tr><td>Craft Papers</td><td>24</td><td>10</td><td class="ok">Available</td></tr>
+                <tr><td>Glue Sticks</td><td>14</td><td>18</td><td class="low">Low Stock</td></tr>
+                <tr><td>Gift Wrappers</td><td>45</td><td>20</td><td class="ok">Available</td></tr>
+                <tr><td>Soft Toys / Dolls</td><td>11</td><td>15</td><td class="low">Low Stock</td></tr>
+                <tr><td>Greeting Cards</td><td>38</td><td>10</td><td class="ok">Available</td></tr>
+            </table>
+        </div>
+        <div class="table-box">
+            <h3>Recent Transactions</h3>
+            <table>
+                <tr><th>Bill ID</th><th>Customer</th><th>Amount</th><th>Payment</th></tr>
+                <tr><td>B1023</td><td>Student</td><td>₹750</td><td>Cash</td></tr>
+                <tr><td>B1024</td><td>Office Staff</td><td>₹220</td><td>UPI</td></tr>
+                <tr><td>B1025</td><td>Parent</td><td>₹580</td><td>UPI</td></tr>
+            </table>
+        </div>
+
+        <div class="alerts">
+            <div class="alert red">⚠ Notebook stock below reorder level</div>
+            <div class="alert yellow">⚠ Glue sticks and color pencils running low</div>
+            <div class="alert yellow">⚠ Soft toys stock needs restocking</div>
+            <div class="alert green">✔ Daily sales target achieved</div>
+        </div>
+        <div class="action-buttons">
+            <button>Add Product</button>
+            <button>Download Report</button>
+        </div>
+        <div class="footer">Last Updated: 1 May 2026 | Version 1.0</div>
+    </div>
+</body>
+
+</html>
