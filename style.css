@@ -170,20 +170,47 @@ th{
 /* Mobile Responsive */
 @media screen and (max-width:768px){
 
-    .navbar ul{
+    .main{
+        width:95%;
+        padding:10px;
+    }
+
+    .cards,
+    .charts,
+    .alerts{
+        grid-template-columns:1fr;
+    }
+
+    .navbar ul,
+    .filters{
         display:flex;
         flex-wrap:nowrap;
         overflow-x:auto;
         gap:8px;
-        padding-bottom:5px;
+        -webkit-overflow-scrolling:touch;
     }
 
-    .navbar li{
+    .navbar li,
+    .filter{
         white-space:nowrap;
         min-width:max-content;
-        padding:8px 12px;
         font-size:13px;
+        padding:8px 12px;
     }
-}e:12px;
+
+    .action-buttons{
+        flex-direction:column;
+    }
+
+    .topbar h1{
+        font-size:22px;
+    }
+
+    .value{
+        font-size:24px;
+    }
+
+    table{
+        font-size:12px;
     }
 }
