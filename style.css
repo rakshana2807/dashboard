@@ -188,9 +188,15 @@ th{
 
     .filters{
         display:flex;
+        flex-direction:row;
         flex-wrap:nowrap;
         gap:10px;
         overflow-x:auto;
+    }
+
+    .filter{
+        white-space:nowrap;
+        min-width:max-content;
     }
 
     .topbar h1{
