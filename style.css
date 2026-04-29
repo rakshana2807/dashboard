@@ -181,12 +181,8 @@ th{
         grid-template-columns:1fr;
     }
 
-    .navbar ul,
-    .action-buttons{
-        flex-direction:column;
-    }
-
-    .filters{
+    .filters,
+    .navbar ul{
         display:flex;
         flex-direction:row;
         flex-wrap:nowrap;
@@ -194,9 +190,14 @@ th{
         overflow-x:auto;
     }
 
-    .filter{
+    .filter,
+    .navbar li{
         white-space:nowrap;
         min-width:max-content;
+    }
+
+    .action-buttons{
+        flex-direction:column;
     }
 
     .topbar h1{
